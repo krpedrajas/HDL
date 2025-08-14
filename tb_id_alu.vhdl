@@ -30,7 +30,7 @@ architecture rtl of tb_id_alu is
 begin
     instruction_decoder_module : instruction_decoder port map (tb_instruction, tb_opcode, tb_operand_1, tb_operand_2);
     alu_module : alu port map (tb_opcode, tb_operand_1, tb_operand_2, tb_result);
-
+    
     process
     begin
         tb_instruction <= "00000011101010111001";
@@ -50,6 +50,15 @@ begin
 
         tb_instruction <= "01010011101010111001";
         wait for 10 ns;
+
+        tb_instruction <= "01100011101010111001";
+        wait for 10 ns;
+
+        tb_instruction <= "01110011101010111001";
+        wait for 10 ns;
+
+
+        
         wait;
     end process;
 
