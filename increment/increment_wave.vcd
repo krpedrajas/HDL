@@ -1,0 +1,50 @@
+$date
+  Thu Sep 11 15:20:49 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_increment $end
+$var reg 4 ! tb_x[3:0] $end
+$var reg 4 " tb_s[3:0] $end
+$var reg 1 # tb_c $end
+$scope module increment_module $end
+$var reg 4 $ x[3:0] $end
+$var reg 4 % s[3:0] $end
+$var reg 1 & c $end
+$var reg 5 ' temp_s[4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1111 !
+b0000 "
+1#
+b1111 $
+b0000 %
+1&
+b10000 '
+#10000000
+b1110 !
+b1111 "
+0#
+b1110 $
+b1111 %
+0&
+b01111 '
+#20000000
+b0111 !
+b1000 "
+b0111 $
+b1000 %
+b01000 '
+#30000000

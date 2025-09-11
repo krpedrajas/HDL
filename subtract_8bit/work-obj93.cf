@@ -1,0 +1,7 @@
+v 4
+file . "subtract_8bit.vhdl" "a39e6574e8a04878c47d47ce2768fc9bb7352931" "20250911075353.376":
+  entity subtract_8bit at 1( 0) + 0 on 11;
+  architecture rtl of subtract_8bit at 14( 302) + 0 on 12;
+file . "tb_subtract_8bit.vhdl" "c9733a5ffa39d6e244b89db67db4d66cd19a2925" "20250911075737.335":
+  entity tb_subtract_8bit at 1( 0) + 0 on 15;
+  architecture tb of tb_subtract_8bit at 7( 100) + 0 on 16;

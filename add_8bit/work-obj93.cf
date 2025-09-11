@@ -1,0 +1,7 @@
+v 4
+file . "tb_add_8bit.vhdl" "9dfba0b00e82afee03ce195dfcbf2710cd56d1d6" "20250911073131.142":
+  entity tb_add_8bit at 1( 0) + 0 on 13;
+  architecture tb of tb_add_8bit at 7( 90) + 0 on 14;
+file . "add_8bit.vhdl" "0ff292fa703b4662c5809201e82ff2cc1e209897" "20250911073123.205":
+  entity add_8bit at 1( 0) + 0 on 11;
+  architecture rtl of add_8bit at 14( 292) + 0 on 12;

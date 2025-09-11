@@ -1,0 +1,7 @@
+v 4
+file . "tb_swap_4bit.vhdl" "6d733984d344adca19af2e95de0c41715035c14f" "20250911081227.159":
+  entity tb_swap_4bit at 1( 0) + 0 on 13;
+  architecture tb of tb_swap_4bit at 7( 92) + 0 on 14;
+file . "swap_4bit.vhdl" "e1f2d304e6ff374f0686d09ecf5cf07d21e06832" "20250911081222.659":
+  entity swap_4bit at 1( 0) + 0 on 11;
+  architecture rtl of swap_4bit at 12( 222) + 0 on 12;
